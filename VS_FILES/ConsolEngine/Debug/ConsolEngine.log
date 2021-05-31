@@ -1,0 +1,19 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  TestApp.cpp
+  main.cpp
+  GameApp.cpp
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\GameApp.cpp(70,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  BaseApp.cpp
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\PerformanceCounter.h(35,65): warning C4244: 'return': conversion from 'LONGLONG' to 'int', possible loss of data
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\PerformanceCounter.h(42,38): warning C4244: 'return': conversion from 'LONGLONG' to 'int', possible loss of data
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\BaseApp.cpp(16,33): warning C4838: conversion from 'const int' to 'SHORT' requires a narrowing conversion
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\BaseApp.cpp(16,41): warning C4838: conversion from 'const int' to 'SHORT' requires a narrowing conversion
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\BaseApp.cpp(17,31): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\BaseApp.cpp(17,41): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\BaseApp.cpp(96,1): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\conio.h(459): message : see declaration of 'kbhit'
+D:\TETRIS\TETRIS\VS_FILES\ConsolEngine\BaseApp.cpp(98,1): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\conio.h(453): message : see declaration of 'getch'
+  Generating Code...
+BaseApp.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  ConsolEngine.vcxproj -> D:\TETRIS\TETRIS\VS_FILES\Debug\ConsolEngine.exe

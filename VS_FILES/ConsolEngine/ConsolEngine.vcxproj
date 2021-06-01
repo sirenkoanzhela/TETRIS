@@ -88,13 +88,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BaseApp.cpp" />
-    <ClCompile Include="GameApp.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TestApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseApp.h" />
-    <ClInclude Include="GameApp.h" />
     <ClInclude Include="PerformanceCounter.h" />
     <ClInclude Include="TestApp.h" />
   </ItemGroup>

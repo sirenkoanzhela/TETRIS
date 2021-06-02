@@ -2,7 +2,7 @@
 
 
 GameApplication* GameApplication::gameApplication = nullptr;
-GameApplication::GameApplication()
+GameApplication::GameApplication() : BaseApp(100,80)
 {
 	std::cout << "Default constructor was called." << std::endl;
 }

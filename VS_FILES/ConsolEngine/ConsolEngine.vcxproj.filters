@@ -16,6 +16,9 @@
     <ClCompile Include="TestApp.cpp">
       <Filter>sources</Filter>
     </ClCompile>
+    <ClCompile Include="GameApplication.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseApp.h">
@@ -25,6 +28,9 @@
       <Filter>sources</Filter>
     </ClInclude>
     <ClInclude Include="TestApp.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication.h">
       <Filter>sources</Filter>
     </ClInclude>
   </ItemGroup>

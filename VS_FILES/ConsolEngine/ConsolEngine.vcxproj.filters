@@ -19,6 +19,9 @@
     <ClCompile Include="GameApplication.cpp">
       <Filter>sources</Filter>
     </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseApp.h">
@@ -31,6 +34,9 @@
       <Filter>sources</Filter>
     </ClInclude>
     <ClInclude Include="GameApplication.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
       <Filter>sources</Filter>
     </ClInclude>
   </ItemGroup>

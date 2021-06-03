@@ -2,7 +2,7 @@
 
 
 GameApplication* GameApplication::gameApplication = nullptr;
-GameApplication::GameApplication() : BaseApp(100,80)
+GameApplication::GameApplication() : BaseApp(25,25)
 {
 	std::cout << "Default constructor was called." << std::endl;
 }
@@ -24,6 +24,13 @@ void GameApplication::KeyPressed(int btnCode)
 
 void GameApplication::UpdateF(float deltaTime)
 {
+	GameApplication::CreateField();
+	delete m_field;
+}
+
+void GameApplication::CreateField()
+{
+	m_field = new Field(this);
 }
 
 GameApplication::~GameApplication()

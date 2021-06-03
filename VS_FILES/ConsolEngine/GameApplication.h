@@ -1,9 +1,10 @@
 #pragma once
 #include "BaseApp.h"
+#include "Field.h"
 class GameApplication : public BaseApp
 {
 private:
-	//Map* map = new Map;
+	Field * m_field;
 
 private:
 	GameApplication();
@@ -18,5 +19,8 @@ public:
 
 	virtual void KeyPressed(int btnCode);
 	virtual void UpdateF(float deltaTime);
+
+	void CreateField();
+
 	~GameApplication();
 };
